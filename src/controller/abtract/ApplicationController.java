@@ -1,4 +1,9 @@
 package controller.abtract;
 
-public class ApplicationController {
+public interface ApplicationController {
+    void add ();
+    void printList();
+    void edit(String id);
+    void destroy(String id);
+    void find(String id);
 }

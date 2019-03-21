@@ -1,6 +1,6 @@
 package controller.abtract;
 
-public class EmployeeController implements ApplicationController {
+public class TeacherController implements ApplicationController{
 
     @Override
     public void add() {
